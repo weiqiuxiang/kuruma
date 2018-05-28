@@ -1,0 +1,53 @@
+﻿  particalEffect.cpp
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particaleffect.cpp(66): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particaleffect.cpp(117): warning C4244: '+=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particaleffect.cpp(118): warning C4244: '+=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particaleffect.cpp(131): warning C4244: '-=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particaleffect.cpp(270): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+  particalCenter.cpp
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(61): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(62): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(334): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(339): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(345): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(351): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(356): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(362): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(368): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(374): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(379): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(410): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(415): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(421): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(426): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(432): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(437): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(448): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(456): warning C4305: '+=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(461): warning C4305: '-=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(472): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(483): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(484): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(485): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(488): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(489): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(516): warning C4244: '=': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(517): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(518): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(520): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(521): warning C4244: '=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(524): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(525): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(526): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(554): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\particalcenter.cpp(555): warning C4305: '=': 'double' から 'float' へ切り詰めます。
+  partical.cpp
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\partical.cpp(69): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\partical.cpp(120): warning C4244: '+=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\partical.cpp(121): warning C4244: '+=': 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\partical.cpp(135): warning C4244: '-=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\partical.cpp(270): warning C4244: '=': 'float' から 'int' への変換です。データが失われる可能性があります。
+c:\users\weiqi\documents\secondyearworks\kuruma\project\sourcefile\partical.cpp(272): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+  コードを生成中...
+  runningman01.vcxproj -> C:\Users\weiqi\Documents\SecondYearWorks\kuruma\project\\runningman01_Debug.exe
+  runningman01.vcxproj -> C:\Users\weiqi\Documents\SecondYearWorks\kuruma\project\\runningman01_Debug.pdb (Full PDB)

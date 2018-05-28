@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceFile\BGpolygon.cpp" />
+    <ClCompile Include="SourceFile\bullet.cpp" />
+    <ClCompile Include="SourceFile\bulletEffect.cpp" />
+    <ClCompile Include="SourceFile\bulletEnemy02.cpp" />
+    <ClCompile Include="SourceFile\debug_hitcheck.cpp" />
+    <ClCompile Include="SourceFile\enemy01.cpp" />
+    <ClCompile Include="SourceFile\enemy02.cpp" />
+    <ClCompile Include="SourceFile\enemyrobot.cpp" />
+    <ClCompile Include="SourceFile\fade.cpp" />
+    <ClCompile Include="SourceFile\gameover.cpp" />
+    <ClCompile Include="SourceFile\input.cpp" />
+    <ClCompile Include="SourceFile\main.cpp" />
+    <ClCompile Include="SourceFile\partical.cpp" />
+    <ClCompile Include="SourceFile\particalCenter.cpp" />
+    <ClCompile Include="SourceFile\particalEffect.cpp" />
+    <ClCompile Include="SourceFile\player.cpp" />
+    <ClCompile Include="SourceFile\result.cpp" />
+    <ClCompile Include="SourceFile\score.cpp" />
+    <ClCompile Include="SourceFile\sound.cpp" />
+    <ClCompile Include="SourceFile\stage01.cpp" />
+    <ClCompile Include="SourceFile\title.cpp" />
+    <ClCompile Include="SourceFile\tutorial.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceFile\BGpolygon.h" />
+    <ClInclude Include="SourceFile\bullet.h" />
+    <ClInclude Include="SourceFile\bulletEffect.h" />
+    <ClInclude Include="SourceFile\bulletEnemy02.h" />
+    <ClInclude Include="SourceFile\debug_hitcheck.h" />
+    <ClInclude Include="SourceFile\enemy01.h" />
+    <ClInclude Include="SourceFile\enemy02.h" />
+    <ClInclude Include="SourceFile\enemyrobot.h" />
+    <ClInclude Include="SourceFile\fade.h" />
+    <ClInclude Include="SourceFile\gameover.h" />
+    <ClInclude Include="SourceFile\input.h" />
+    <ClInclude Include="SourceFile\main.h" />
+    <ClInclude Include="SourceFile\partical.h" />
+    <ClInclude Include="SourceFile\particalCenter.h" />
+    <ClInclude Include="SourceFile\particalEffect.h" />
+    <ClInclude Include="SourceFile\player.h" />
+    <ClInclude Include="SourceFile\result.h" />
+    <ClInclude Include="SourceFile\score.h" />
+    <ClInclude Include="SourceFile\sound.h" />
+    <ClInclude Include="SourceFile\stage01.h" />
+    <ClInclude Include="SourceFile\title.h" />
+    <ClInclude Include="SourceFile\tutorial.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{370713D6-0C94-4369-96F9-3C4476F5DB65}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>runningman01</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>$(DXSDK_DIR)include;$(SolutionDir)SourceFile;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>$(DXSDK_DIR)include;$(SolutionDir)SourceFile;$(IncludePath)</IncludePath>
+    <LibraryPath>$(DXSDK_DIR)lib\x86;$(LibraryPath)</LibraryPath>
+    <TargetName>$(ProjectName)_$(Configuration)</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

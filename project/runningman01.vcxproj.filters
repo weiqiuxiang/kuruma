@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\CppFile">
+      <UniqueIdentifier>{d067e390-4751-4cb5-a255-69fa527b2e0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\HeadFile">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceFile\tutorial.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\title.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\result.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\player.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\gameover.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\input.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\main.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\score.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\stage01.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\BGpolygon.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\sound.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\enemy01.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\enemyrobot.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\enemy02.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\bullet.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\bulletEffect.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\bulletEnemy02.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\fade.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\debug_hitcheck.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\partical.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\particalCenter.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFile\particalEffect.cpp">
+      <Filter>ソース ファイル\CppFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceFile\BGpolygon.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\bullet.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\bulletEffect.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\bulletEnemy02.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\debug_hitcheck.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\enemy01.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\enemy02.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\enemyrobot.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\fade.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\gameover.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\input.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\main.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\player.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\result.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\score.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\sound.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\stage01.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\title.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\tutorial.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\partical.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\particalCenter.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFile\particalEffect.h">
+      <Filter>ソース ファイル\HeadFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
